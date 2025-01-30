@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Lato:wght@100;300;400;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-dots{
+    bottom: 15px;
+  }
+  .slick-dots li button:before{
+    color: #292729;
+    /* bottom: 15px; */
+  }
+  .slick-dots li.slick-active button:before{
+    color: #fa37fa;
+    /* bottom: 15px; */
+  }

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Lato:wght@100;300;400;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{margin: 0px; padding: 0px; box-sizing: border-box; }
+body{font-family: 'Lato', sans-serif; }
+
+::-webkit-scrollbar {
+    width: 5px;
+    
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+    
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #f2c3fa;
+    border-radius: 20px;
+    
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #f2c3fa;
+  }
+
+  input::placeholder {
+    color: gray; /* Change the color to your desired value */
+    opacity: 1;    /* Change the opacity if needed */
+    /* font-style: italic; */
+    font-size: smaller; /* Add any additional styles */
+    font-weight: 400;
+}
+
+/* Import React Slick styles */
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+/* Custom styles for React Slick classes using Tailwind's @apply directive */
+/* .slick-prev,
+.slick-next {
+  @apply bg-gray-500 text-white rounded-full;
+} */
+
+.slick-dots {
+  @apply space-x-2 top-[22rem] ;
+}
+
+.slick-arrow.slick-prev,.slick-arrow.slick-next {
+  position: absolute;
+  top: -1rem;
+  width: 2rem;
+  }
+.slick-arrow.slick-prev {
+  position: absolute;
+  
+  left: 77rem;
+  }
+.slick-arrow.slick-next{
+  position: absolute;
+  right: -10px;
+  }
+
+  .slick-arrow.slick-prev:before,.slick-arrow.slick-next:before {
+    color: #d946ef;
+  }
+
+
+  .slick-slide > div {
+    margin: 0 10px; /* Adjust the margin as needed */
+  }
+  
+  
+/* .slick-dots li button:before {
+  @apply text-sm ;
+}
+
+.slick-dots li.slick-active button:before {
+  @apply  text-green-700 ;
+} */
+
